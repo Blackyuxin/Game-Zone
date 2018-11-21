@@ -1,0 +1,63 @@
+    .header {
+        z-index: 999;
+        position: fixed;
+        width: 1920px;
+        height: 70px;
+    }
+    .logo {
+        position: absolute;
+        margin-left: 300px;
+        width: 700px;
+        height: 70px;
+    }
+    .header a {
+		color: #FFF;
+        text-decoration: none;
+    }
+    .header .menu {
+        position: absolute;
+        margin-left: 950px;
+        width: 750px;
+        height: 45px;
+    }
+    .header .menu ul {
+        list-style-type: none;
+        width: 750px;
+        height: 45px;
+        font-size: 35px;
+        padding-top: 25px;
+    }
+    .header .menu ul li {
+        float: left;
+        list-style: none;
+        font-family: asap;
+        text-align: center;
+        font-size: 17px;
+		font-weight: 700;
+        width: 150px;
+        height:45px;
+		z-index: -100;
+    }
+    .move {
+        background:url(../images/lavalamp.png)no-repeat scroll 0 0 transparent;
+        height: 16px;
+        position: absolute;
+        top: 5px;
+        width: 150px;
+		transition: all .3s;
+    }
+    .header .menu ul li:nth-child(1):hover ~ .move {
+        left: 0px;
+    }
+    .header .menu ul li:nth-child(2):hover ~ .move {
+        left: 150px;
+    }
+    .header .menu ul li:nth-child(3):hover ~ .move {
+        left: 300px;
+    }
+    .header .menu ul li:nth-child(4):hover ~ .move {
+        left: 450px;
+    }
+    .header .menu ul li:nth-child(5):hover ~ .move {
+        left: 600px;
+    }

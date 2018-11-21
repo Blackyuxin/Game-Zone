@@ -1,0 +1,243 @@
+		*{
+            margin: 0px;
+            padding: 0px;
+        }
+		.move{
+			left: 150px;
+		}
+		.header{
+			background-color: rgba(34,127,187,0.8);
+		}
+	#About{
+			padding: 0px;
+			margin: auto;
+			height: 610px;
+			width: 1250px;
+			
+		}
+	#About	.div{
+			padding: 0px;
+			margin: auto;
+		padding-top: 100px;
+			height: 95px;
+			width: 1250px;
+			color: #E91E63;
+			text-align: center;
+			font-size: 38px;
+		font-family:"josefin-sans";
+			
+			
+		}
+		#About .img:hover{
+			
+			opacity:0.8;
+			filter:alpha(opacity=80);
+			transition-duration: 1s;
+			-moz-transition-duration: 1s; /* Firefox 4 */
+			-webkit-transition-duration: 1s; /* Safari ºÍ Chrome */
+			-o-transition-duration: 1s; /* Opera */
+			
+		}
+		#About	.div1{
+			padding: 0px;
+			margin: auto;
+			height: 475px;
+			width: 622px;
+			float: left;
+			font-size: 20px;
+			color: #C5C5C5;
+		}
+		#About	.div2{
+			margin: auto;
+			margin-left: 0px;
+			padding: 0px;
+			height: 100px;
+			width: 100px;
+			float: left;
+			background-color:aquamarine;
+			position: relative;
+		}
+		#About	.div3{
+			margin: auto;
+			margin-top: 30px;
+			padding: 5px;
+			height: 350px;
+			width: 525px;
+			text-align: center;
+			overflow: hidden;
+			border: 1px dashed #000000;
+			
+		}
+
+		#About	.div4{
+			margin-top: -355px;
+			margin-left: 0px;
+			padding: 0px;
+			height: 350px;
+			width: 525px;
+			font-size: 25px;
+			letter-spacing:2px;
+			z-index: 999;
+			background-color: #E91E63;
+		}
+		#About .a{
+			text-decoration:none;
+			color: #C5C5C5;
+		}
+		#About .a:hover{
+			color: #FFFFFF;
+			background-color: #E16163;
+			font-size: 25px;
+			transition-duration: 1s;
+			-moz-transition-duration: 1s; /* Firefox 4 */
+			-webkit-transition-duration: 1s; /* Safari ºÍ Chrome */
+			-o-transition-duration: 1s; /* Opera */
+		}
+		
+		#About .ul{
+			margin-left: 50px;
+			margin-top: 10px;
+			list-style:url(../images/bg1.png);
+		}
+		#Photo{
+			padding: 0px;
+			margin: 0px;
+			height: 720px;
+			width: 100%;
+			overflow:hidden;
+			position: relative;
+		}
+		#Photo .pdiv{
+			padding: 0px;
+			margin: 0px;
+			height: 720px;
+			width: 635px;
+			float: left;
+			
+			
+		}
+		#Photo .pdiv1{
+			padding: 0px;
+			margin: 0px;
+			height: 360px;
+			width: 422px;
+			float: left;
+			color: #999999;
+			text-align: center;
+			position: relative;
+			background-color: #000000;
+		}
+		
+	  #Photo .pdiv2{
+			padding: 0px;
+			margin: 0px;
+			height: 360px;
+			width: 1266px;
+			float: left;
+			color: #999999;
+			text-align: center;
+			position: relative;
+			overflow: hidden;
+		}
+		#Photo .pdiv3{
+			padding: 0px;
+			margin: 0px;
+			height: 360px;
+			width: 1266px;
+			float: right;
+			color: #999999;
+			text-align: center;
+			position: relative;
+			overflow: hidden;
+		}
+		#Photo .img1{
+			padding-top: 80px;
+		}
+		#Photo h1{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			font-size: 15px;
+			letter-spacing:3px;
+}
+		 #Photo .pul{
+			list-style: none;
+			position: relative;
+			width: 3500px;
+		}
+		
+		#photo .pli{
+			float: left;
+		}
+		#photo .pli1{
+			float: right;
+		}
+		#Our {
+			margin-top: 50px;
+			padding: 0px;
+			height: 550px;
+			width: 100%;
+			text-align: center;
+			background-color: #E8E8E8;
+		}
+		#Our .odiv{
+			margin: auto;
+			padding: 0px;
+			height: 550px;
+			width: 1200px;
+		}
+		#Our .odiv1{
+			margin: auto;
+			padding-top: 60px;
+			width: 1200px;
+			height: 100px;
+			color: #E91E63;
+			text-align: center;
+			font-size: 38px;
+			font-family:"josefin-sans";
+		}
+		#Our .odiv2{
+			margin: auto;
+			padding: 0px;
+			height: 380px;
+			width: 1200px;
+		}
+		#Our .odiv3{
+			float: left;
+			margin: auto;
+			margin-left: 15px;
+			padding: 0px;
+			height: 380px;
+			width: 280px;
+			color: #E91E63;
+			font-size: 23px;
+			text-align: center;
+			font-family:"josefin-sans";
+		}
+		#Our .odiv4{
+			height: 280px;
+			width: 280px;
+			overflow: hidden;
+			color: aliceblue;
+		}
+		#Our .odiv5{
+			margin-top: -600px;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 200px;
+			height: 580px;
+			width: 220px;
+			font-size: 18px;
+			 position: relative;
+			letter-spacing:2px;
+			 background-color: rgba(0,0,0,0.0);
+		}
+		#Our .odiv5:hover{
+			margin-top: -300px;
+			background-color: rgba(0,0,0,0.3);
+			transition-duration: 1s;
+			-moz-transition-duration: 1s; /* Firefox 4 */
+			-webkit-transition-duration: 1s; /* Safari ºÍ Chrome */
+			-o-transition-duration: 1s; /* Opera */
+		}
+		}
